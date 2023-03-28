@@ -3,8 +3,7 @@
 .prettierrc
 
 node_modules
-hooks
-components
+src
 package-lock.json
 tsconfig.json
 tsconfig.base.json

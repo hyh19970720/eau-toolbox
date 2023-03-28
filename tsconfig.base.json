@@ -10,7 +10,7 @@
     "sourceMap": false, // 生成目标文件和 sourceMap 文件
     "strict": true, // 开启严格模式
     "outDir": "./dist", // 输出目录
-    "rootDir": ".",
+    "rootDir": "./src", // 编译文件根目录
     "baseUrl": ".",
     "declaration": true, // 自动生成声明文件
     "declarationDir": "./types", // 声明文件目录

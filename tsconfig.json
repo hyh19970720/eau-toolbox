@@ -1,5 +1,5 @@
 {
   "extends": "./tsconfig.base.json",
   // 指定待编译的文件
-  "include": ["./hooks/**/*", "./components/**/*", "index.ts"]
+  "include": ["src/**/*.ts"]
 }
