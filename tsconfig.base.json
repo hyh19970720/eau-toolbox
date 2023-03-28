@@ -2,16 +2,18 @@
   // 编译配置项
   "compilerOptions": {
     "target": "ES5", // 生成语言版本
-    "module": "CommonJS", // 代码模板标准
+    "module": "ESNext", // 代码模板标准
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "noImplicitAny": true, // 禁止隐式 any 类型
     "removeComments": true, // 删除注释
     "preserveConstEnums": false, // 保留 const 和 enum 声明，生成枚举隐射
     "sourceMap": false, // 生成目标文件和 sourceMap 文件
     "strict": true, // 开启严格模式
     "outDir": "./dist", // 输出目录
+    "rootDir": ".",
+    "baseUrl": ".",
     "declaration": true, // 自动生成声明文件
-    "declarationDir": "./dist/typings", // 声明文件目录
-    "noEmitOnError": true, // 报错时不生成任何文件
-    "lib": ["DOM", "ESNext"]
+    "declarationDir": "./types", // 声明文件目录
+    "noEmitOnError": true // 报错时不生成任何文件
   }
 }

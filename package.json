@@ -1,14 +1,18 @@
 {
   "name": "@coderhyh/eau-toolbox",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "a simple responsitory that includes some methods and components i use frequently.",
   "scripts": {
-    "tsc": "tsc"
+    "build": "tsc"
   },
-  "keywords": [],
+  "keywords": [
+    "eau",
+    "tools",
+    "toolbox",
+    "eau-toolbox"
+  ],
   "author": "coderhyh",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^5.0.2"
   }

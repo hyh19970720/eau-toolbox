@@ -1,0 +1,10 @@
+.npmignore
+.gitignore
+.prettierrc
+
+node_modules
+hooks
+components
+package-lock.json
+tsconfig.json
+tsconfig.base.json
