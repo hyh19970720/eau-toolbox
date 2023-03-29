@@ -4,9 +4,11 @@
   "description": "a simple responsitory that includes some methods and components i use frequently.",
   "main": "dist/index.js",
   "typings": "types/index.d.ts",
+  "type": "module",
   "scripts": {
-    "build": "tsc",
-    "clean": "rimraf dist types"
+    "build": "npm run clean && tsc",
+    "clean": "rimraf dist types",
+    "publish": "ts-node-esm scripts/publish"
   },
   "keywords": [
     "eau",
@@ -17,7 +19,9 @@
   "author": "coderhyh",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^18.15.10",
     "rimraf": "^4.4.1",
+    "ts-node": "^10.9.1",
     "typescript": "^5.0.2"
   },
   "repository": {
